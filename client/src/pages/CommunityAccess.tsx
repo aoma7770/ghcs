@@ -6,7 +6,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle, MapPin, Music, Bike, Coffee, Phone } from "lucide-react";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663486953469/fV65L5asShRof4pFFMJKuY/ghcs_community_access-9uaRSiBz3vBKkNH3naiRCD.webp";
+const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663486953469/fV65L5asShRof4pFFMJKuY/ghcs_community_v2-Hii9jP3p2kUuDR9BdeLTbo.webp";
 
 function AnimatedSection({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
