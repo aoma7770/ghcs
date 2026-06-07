@@ -25,10 +25,12 @@ import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FloatingSupport from "./components/FloatingSupport";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <main>{children}</main>
       <Footer />
