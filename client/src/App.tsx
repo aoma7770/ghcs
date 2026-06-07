@@ -23,6 +23,8 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import FloatingSupport from "./components/FloatingSupport";
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -48,6 +50,7 @@ function Router() {
         <Route path="/blog" component={Blog} />
         <Route path="/blog/:slug" component={BlogPost} />
         <Route path="/contact" component={Contact} />
+        <Route path="/privacy" component={PrivacyPolicy} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>
@@ -62,6 +65,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <FloatingSupport />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

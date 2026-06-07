@@ -135,7 +135,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@ghcommunitysupports.com.au"
+                  href="mailto:support@ghcommunitysupports.com.au"
                   className="flex items-start gap-3 text-white/70 hover:text-[#3ECFCF] transition-colors duration-200 group"
                 >
                   <div className="w-8 h-8 rounded-full bg-[#3ECFCF]/20 flex items-center justify-center flex-shrink-0 group-hover:bg-[#3ECFCF]/40 transition-colors">
@@ -143,7 +143,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs text-white/40 mb-0.5">Email</p>
-                    <p className="text-sm font-medium break-all">info@ghcommunitysupports.com.au</p>
+                    <p className="text-sm font-medium break-all">support@ghcommunitysupports.com.au</p>
                   </div>
                 </a>
               </li>
